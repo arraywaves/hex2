@@ -1,0 +1,23 @@
+{
+	"name": "hex2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"test": "tsc && node dist/index.js '#FF5733'",
+		"use": "tsc && node dist/scripts/install.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.7.0",
+	"devDependencies": {
+		"@types/culori": "^2.1.1",
+		"@types/node": "^22.14.0",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"culori": "^4.0.1"
+	}
+}
