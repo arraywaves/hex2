@@ -2,7 +2,8 @@
 A simple cli tool to convert hex to rgb, hsl and oklch, for transparency just add the alpha channel to the hex code e.g. `hex2 #EFEFEF` will return values without alpha and `hex2 #EFEFEF45` will return formats with the alpha channel.
 
 ## Install
-- ```bash cd ~/Documents/Sites/cli_tools/hex2```
+- Clone this repo somewhere local.
+- ```bash cd path_to_repo/hex2```
 - ```bash pnpm run use```
 
 **Note:** Windows and Linux haven't been tested at all, let me know how it goes.
